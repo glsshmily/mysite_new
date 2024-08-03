@@ -1,0 +1,144 @@
+.brand-img {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px 0 10px;
+}
+
+.slider {
+    position: relative;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    height: 968px;
+    border: 0;
+}
+
+.caption {
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 29%;
+    text-align: center;
+}
+
+.caption h3 {
+    color: #ffbb38;
+    font-weight: 400;
+    font-size: 6em;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    font-family: 'ysbth';
+    text-shadow: 2px 2px #747474;
+}
+
+.caption h4 {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    font-family: 'pfn';
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px #747474;
+}
+
+a.morebtn {
+    background: #3D3D3D;
+    padding: 0.8em 0;
+    display: block;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    color: #FFF;
+    width: 20%;
+    margin: 0 auto;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+a.morebtn:hover {
+    background: #585686;
+}
+
+.callbacks_tabs a:after {
+    content: "\f111";
+    font-size: 0;
+    font-family: FontAwesome;
+    visibility: visible;
+    display: block;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    border: 2px solid #747474;
+}
+
+.callbacks_here a:after {
+    border: 2px solid #FFF;
+}
+
+.callbacks_tabs a {
+    visibility: hidden;
+}
+
+.callbacks_tabs li {
+    display: inline-block;
+}
+
+ul.callbacks_tabs.callbacks1_tabs {
+    position: absolute;
+    bottom: 14px;
+    z-index: 999;
+    left: 13px;
+}
+
+.callbacks_nav {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    top: 50%;
+    left: 0;
+    opacity: 0.7;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 61px;
+    width: 38px;
+    background: transparent url("../assets/images/themes.gif") no-repeat left top;
+    margin-top: -45px;
+}
+
+.callbacks_nav.next {
+    left: auto;
+    background-position: right top;
+    right: 0;
+}
